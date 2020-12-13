@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+  namespace: default
+spec:
+  ports:
+    - port: 80
+      protocol: tcp
+  selector:
+    run: nginx-service
