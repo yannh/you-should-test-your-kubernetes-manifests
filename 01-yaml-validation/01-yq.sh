@@ -1,4 +1,5 @@
 #!/bin/bash -x
+reset
 
 yq validate fixtures/nginx-deployment.yml
 echo $?

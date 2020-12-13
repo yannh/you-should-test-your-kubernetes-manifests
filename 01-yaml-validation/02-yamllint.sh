@@ -1,4 +1,5 @@
 #!/bin/bash -x
+reset
 
 yamllint fixtures/nginx-deployment.yml
 echo $?
